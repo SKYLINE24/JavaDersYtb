@@ -5,7 +5,7 @@ public class DortIslem {
         sonuc = s1 + s2;
         System.out.println(sonuc);
     }
-    public static void cıkartma(int s1, int s2){
+    public static void cikartma(int s1, int s2){
         sonuc = s1 - s2;
         System.out.println(sonuc);
     }
