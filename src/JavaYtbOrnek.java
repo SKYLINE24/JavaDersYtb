@@ -3,6 +3,11 @@ import java.util.Scanner;
 
 public class JavaYtbOrnek {
     public static void main(String[] args){
+        DortIslem.toplama(60,70);
+        DortIslem.cıkartma(80,21);
+        DortIslem.carpma(5,18);
+        DortIslem.bolme(1230,10);
+
         localeOrnegi();
         sifreKontrolu();
         switchCaseOrnek();
