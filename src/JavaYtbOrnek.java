@@ -1,30 +1,31 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class icerik {
+public class JavaYtbOrnek {
     public static void main(String[] args){
+        localeOrnegi();
+        sifreKontrolu();
+        switchCaseOrnek();
+        whileDongu();
+        doWhileDongu();
 
+    }
 
+    private static void localeOrnegi() {
         //ekranı okuma ve Locale belirleme okuduğunu bastırma
-
-
-
-        /*
+        //scanner ve locale üzerine gelip Alt+Enter yaparsanız kütüphanete import işlemi ile uyarılar çözülür
         Scanner sc = new Scanner(System.in);
         sc.useLocale(Locale.US);
 
         System.out.println("Bir  sayı giriniz: ");
         double a = sc.nextDouble();
         System.out.println("a değişkeninin değeri " + a);
-        */
+    }
 
-
-
+    private static void sifreKontrolu() {
         //ekranı okuma kullanıcı girişi ve şifre kontrolü
 
-
-
-        /*String userName = "Erbil Can Keleş";
+        String userName = "Erbil Can Keleş";
         String password = "Erbil1234!";
         Scanner scan = new Scanner(System.in);
 
@@ -44,15 +45,12 @@ public class icerik {
         }
         else{
             System.out.println("Kullanıcı girişi yanlış");
-        }*/
+        }
+    }
 
+    private static void switchCaseOrnek() {
         //Switch case örneği
 
-
-
-
-
-        /*
         Scanner scan = new Scanner(System.in);
         int bakiye = 16000;
 
@@ -96,15 +94,11 @@ public class icerik {
             default:
                 System.out.println("Geçersiz işlem Yaptınız!");
                 break;
-        }*/
+        }
+    }
 
+    private static void whileDongu() {
         //while döngü örneğiii
-
-
-
-
-
-        /*
         Scanner scanner = new Scanner(System.in);
         System.out.println("Faktoriyeli Hesaplanacak Sayıyı Giriniz: ");
         int sayi = scanner.nextInt();
@@ -115,13 +109,11 @@ public class icerik {
             sayi--;
         }
         System.out.println("faktoriyeli= "+ faktoriyel);
+    }
 
-        */
-
-
+    private static void doWhileDongu() {
         //Do-While döngüsü
 
-        /*
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Bir Sayı giriniz:" );
@@ -138,11 +130,6 @@ public class icerik {
             System.out.println(toplam);
 
         }
-        */
-
-
-
-
-
     }
+
 }
