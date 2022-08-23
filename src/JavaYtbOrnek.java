@@ -3,8 +3,24 @@ import java.util.Scanner;
 
 public class JavaYtbOrnek {
     public static void main(String[] args){
+
+        Car car1 = new Car("Gümüş","Volkswagen",1.6,5);
+        Car car2 = new Car();
+        Car car3 = new Car("Siyah","Mercedes");
+        car1.showInfos();
+        car2.showInfos();
+        car3.showInfos();
+
+        /*car1.setColor("Gümüş");
+        car1.setModel("Volkswagen Golf");
+        car1.setEngine(1.6);
+        car1.setDoors(2);*/
+
+
+
+
         DortIslem.toplama(60,70);
-        DortIslem.cıkartma(80,21);
+        DortIslem.cikartma(80,21);
         DortIslem.carpma(5,18);
         DortIslem.bolme(1230,10);
 

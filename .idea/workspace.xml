@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11708755-4c6b-4b2d-a852-50b2528d4d66" name="Changes" comment="Dort islem Clası ve islem metodlari eklendi">
+      <change afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DortIslem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DortIslem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaYtbOrnek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaYtbOrnek.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660915379710</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dort islem Clası ve islem metodlari eklendi">
+      <created>1660915416475</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660915416475</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

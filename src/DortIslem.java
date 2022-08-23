@@ -18,5 +18,4 @@ public class DortIslem {
         System.out.println(sonuc);
     }
 
-
 }
